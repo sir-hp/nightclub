@@ -5,7 +5,6 @@ import { useForm } from 'react-hook-form'
 import { ToastContainer, toast } from 'react-toastify';
 import Nav from '../components/Nav';
 import 'react-toastify/dist/ReactToastify.css';
-import { useState } from 'react';
 import table1 from '../assets/table/table_1.png'
 import table2 from '../assets/table/table_2.png'
 import table3 from '../assets/table/table_3.png'

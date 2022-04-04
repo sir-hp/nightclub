@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, a, input{
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+}
+
+body{
+  background-image: url('./assets/bg/main_bg.png');
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  color: #e0e0e0;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.heading {
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 2em;
+}
+
+.heading span {
+color: #ff2a70;
+}
+
+.events {
+background: url('./assets/bg/footerbg.jpg') no-repeat;
+background-size: cover;
+}
+
+
+.testemonials {
+  background: url('./assets/bg/footerbg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.footerBackground {
+  background: url('./assets/bg/footerbg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.underside {
+  background: url('./assets/bg/footerbg.jpg') no-repeat;
+  background-size: cover;
+  display: grid;
+}
+
+.undersideoverlay{
+    background-color: #030203CD;
+}
+
+.err {
+  margin-top: 1em;
+  color: #ff2a70;
+  text-transform: capitalize;
+}
+
+label {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
